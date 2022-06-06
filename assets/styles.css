@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 213, 213);
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+    align-self: center;
+    justify-content: center;
+}
+
+.digite{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 30%;
+    max-width: 30rem;
+    padding: 100px;
+}
+
+
+
+.digite input{
+    width: 900px;
+    height: 40px;
+    padding: 7px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.digite input:focus{
+    outline: none;
+}
+
+.digite button{
+    width: 75%;
+    height: 58px;
+    padding: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    max-width: 30rem;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.tarefas checkbox{
+    border-radius: 5%;
+}
+
+:checked + #nome-tarefa{
+    text-decoration: line-through;
+}
